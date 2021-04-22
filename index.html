@@ -15,7 +15,7 @@
 
 <body>
 
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -25,11 +25,11 @@
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center">
 
-          <li class="nav-items"><a href="#">ACCUEIL</a></li>
-          <li class="nav-items"><a href="#">PRESENTATION</a></li>
-          <li class="nav-items"><a href="#">LA CARTE</a></li>
-          <li class="nav-items"><a href="#">CONTACT</a></li>
-          <li class="nav-items"><a href="#">NOUS TROUVER</a></li>
+          <li class="nav-items"><a href="#acceuil">ACCUEIL</a></li>
+          <li class="nav-items"><a href="#presentation">PRESENTATION</a></li>
+          <li class="nav-items"><a href="#carte">LA CARTE</a></li>
+          <li class="nav-items"><a href="#contact">CONTACT</a></li>
+          <li class="nav-items"><a href="#findme">NOUS TROUVER</a></li>
 
         </ul>
       </div>
@@ -37,7 +37,7 @@
   </nav>
 
   <header>
-    <div class="container-fluid effect">
+    <div class="container-fluid effect" id="acceuil">
       <div class="col-12 titre">
         <p class="display-1">L'ALIMENTAZIONE</p>
         <p class="h2">Restaurant italien</p>
@@ -46,7 +46,7 @@
   </header>
 
 
-    <main class="container">
+    <main class="container" id="presentation">
 
         <h2 class="presentation text-center mt-2">Faites un détour par l'Italie !</h2>
         <div class="row d-flex text-center">
@@ -85,7 +85,7 @@
     </main>
 
 
-    <div class="imagebg container-fluid">
+    <div class="imagebg container-fluid" id="carte">
         <div class="row">
             <div class="col-12 col-sm-12 text-white text-center fs-1 fw-bold"> Menu </div>
             <hr class="lignemenu">
@@ -233,7 +233,7 @@
         </div>
     </div>
 
-    <div class="callme container-fluid">
+    <div class="callme container-fluid" id="contact">
         <div class="row">
             <div class="col-12 titlecontact text-center fs-1">Contactez-nous !</div>
             <div class="col-1 col-sm-1"></div>
@@ -274,9 +274,9 @@
         </div>
     </div>
 
-    <div class="find container-fluid">
+    <div class="find container-fluid" id="findme">
         <div class="row">
-            <div class="col-12 titlecontact text-center fs-1">Ou nous trouver :</div>
+            <div class="col-12 titlecontact text-center fs-1">Où nous trouver :</div>
             <div class="col-1 col-sm-1"></div>
             <hr class="col-10 col-sm-10 lignecontact">
             <div class="col-1 col-sm-1"></div>

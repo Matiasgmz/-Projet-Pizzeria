@@ -58,6 +58,7 @@ td {
 
 .bgfooter {
     background-image: url(../img/cooking.jpg);
+    background-size: cover;
 }
 
 .bgfooter a, .bgfooter p {
