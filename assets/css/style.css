@@ -1,0 +1,147 @@
+body {
+    font-family: antonio;
+}
+
+.imagebg {
+    background-image: url(../img/cooking2.jpg);
+}
+
+table {
+    caption-side: top;
+}
+
+th {
+    border: none;
+}
+
+td {
+    border: none;
+}
+
+.lignemenu {
+    border: solid 0.1rem white;
+    opacity: 100%;
+}
+
+.sizeimg {
+    width: 70%;
+}
+
+.callme {
+    margin-top: 2rem;
+}
+
+.formulaire {
+    margin-top: 2rem;
+}
+
+.titlecontact {
+    margin-bottom: 2rem;
+}
+
+.lignecontact {
+    border: solid 0.1rem black;
+    opacity: 100%;
+}
+
+.find {
+    margin-top: 2rem;
+}
+
+.follow {
+    margin-top: 2rem;
+}
+
+.logofollow {
+    font-size: 10%;
+}
+
+.bgfooter {
+    background-image: url(../img/cooking.jpg);
+}
+
+.bgfooter a, .bgfooter p {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 4px 2px black
+}
+
+.imagebg th, .imagebg tr {
+    font-size: 1.25rem;
+}
+
+.logoreseau {
+    margin-bottom: 2rem;
+}
+
+#photo {
+    width: 50vw;
+}
+
+.smallPhoto {
+    height: 25vh;
+}
+
+main {
+    margin-bottom: 4rem;
+}
+
+.presentation {
+    margin-bottom: 2rem;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    width: 100%;
+    display: block;
+}
+
+.navbar li {
+    display: inline;
+    list-style: none;
+}
+
+li a {
+    display: block;
+    color: rgb(34, 33, 33);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Antonio', sans-serif;
+}
+
+ul {
+    background-color: white;
+    width: 100%;
+}
+
+li a:hover {
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+header {
+    background: url(../img/pizzamain.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 40px;
+    background-size: cover;
+}
+
+.effect {
+    background-color: black;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+}
+
+.titre {
+    text-align: center;
+    position: relative;
+    top: 20rem;
+    font-family: 'Antonio', sans-serif;
+    text-shadow: 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black, 1px 2px 1px black;
+    color: white;
+}
